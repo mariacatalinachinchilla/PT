@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Price Tweakers</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm py-0 fixed-top">
+        <img src="C:\Users\catac\Desktop\PT\Images\PTlogo.svg" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav brand-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Dashboard</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing Suggestions</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Users</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Subscr</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Setup</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Demo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0"></form>
+        </div>
+      </nav>
+
+      <!-- Product Wrapper -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <!-- product -->
+            <div class="col-md-3">
+              <div class="rounded">
+                <div class="card flex-nowrap ">
+                  <div class="card-header text-white bg-warning">Product</div>
+                  <div class="col-md-3"></div>
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="btn-group-vertical">
+                          <button
+                            type="button"
+                            class="btn btn-outline-warning btn-sm"
+                          >
+                            Edit Product
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            Add URL
+                          </button>
+                        </div>
+                        <!-- Force next columns to break to new line -->
+                        <div class="w-200"></div>
+                        <div class="btn-group-vertical">
+                          <button
+                            type="button"
+                            class="btn btn-outline-success btn-sm"
+                          >
+                            Refresh Prices Now
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-danger btn-sm"
+                          >
+                            Delete Product
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product picture -->
+                <div class="card" style="width:250px">
+                  <img
+                    class="card-img-top"
+                    src="http://placekitten.com/200/300"
+                    alt="Card image"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Boneco 7147 Zwart Ultrasoon bevochtiger
+                    </h4>
+                  </div>
+                </div>
+                <!-- Product description and info -->
+                <ul class="list-group">
+                  <li class="list-group-item">EAN</li>
+                  <li class="list-group-item list-group-item-secondary">
+                    SKU
+                  </li>
+                  <li class="list-group-item">MPN</li>
+                  <li class="list-group-item list-group-item-secondary">
+                    Size/Color
+                  </li>
+                  <li class="list-group-item">VAT Rate %</li>
+                  <li class="list-group-item list-group-item-secondary">
+                    Internal ID
+                  </li>
+                  <li class="list-group-item">MAP Price</li>
+                  <li class="list-group-item list-group-item-secondary">
+                    Purchase Price
+                  </li>
+                  <li class="list-group-item">Selling Price</li>
+                  <li class="list-group-item list-group-item-secondary">
+                      Product Group
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- product details and history column -->
+            <div class="col-md-9">
+              <!-- product details -->
+              <div class="row">
+                <div class="rounded">
+                  <div class="card 1">
+                    <div class="card-header text-white bg-success">
+                      Product Details
+                    </div>
+                    <div class="card-columns">
+                      <div class="card bg-primary">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                              <table class="table table-sm">
+                                  <thead class="thead-success">
+                                    <tr>
+                                      <th scope="col">Name</th>
+                                      <th scope="col">Price</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">Airsain.nl</th>
+                                      <td>20 US</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">BOL.COM</th>
+                                      <td>127 US</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Shopvoorgezondhels.nl</th>
+                                      <td>88 US</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card bg-warning">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                              <div class="card">
+                                  <div class="card-body">
+                                    Total Possible Price Increase
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                      <div class="card">
+                                        <div class="card-body text-center">
+                                          <p class="card-text">Difference $</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <div class="card">
+                                          <div class="card-body text-center">
+                                              <p class="card-text">Difference %</p>
+                                            </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card bg-success">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                              12 % Of your products are more expensive 
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card bg-danger">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                            Product Index
+                          </p>
+                          <br>
+                          <p class="card-text">
+                              Brand Index
+                            </p>
+                        </div>
+                      </div>
+                      <div class="card bg-light">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                              <img src="C:\Users\catac\Desktop\PT\Images\Capture.svg" alt="" />
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card bg-info">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                            <img src="C:\Users\catac\Desktop\PT\Images\chart (1).svg" alt="" />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- product matches -->
+              <div class="rounded">
+                <div class="card 2">
+                  <div class="card-header text-white bg-primary">
+                    Product Matches
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-striped table-condensed">
+                      <thead>
+                        <tr>
+                          <th scope="col">Edit</th>
+                          <th scope="col">Site Name</th>
+                          <th scope="col">Product Variant</th>
+                          <th scope="col">Current Price</th>
+                          <th scope="col">Available</th>
+                          <th scope="col">Last Update</th>
+                          <th scope="col">Last Attempt</th>
+                          <th scope="col">Failed Attempts</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">OO</th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">OO</th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">OO</th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <blockquote class="blockquote mb-0"></blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- product history -->
+
+        <div class="col-md-12">
+          <div class="rounded">
+            <div class="card 3">
+              <div class="card-header text-white bg-danger">
+                Product Price History
+              </div>
+              <div class="card-body">
+                <div class="card" style="width:700px">
+                  <img
+                    src="C:\Users\catac\Desktop\PT\Images\chart.svg"
+                    alt="Card image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--
+      Bootstrap core JavaScript
+      ==================================================
+    -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
