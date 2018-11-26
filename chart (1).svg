@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 400" style="enable-background:new 0 0 600 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;}
+	.st2{fill:#7CB5EC;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st3{fill:#434348;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st4{fill:#90ED7D;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st5{fill:#F7A35C;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st6{fill:#8085E9;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st7{fill:#F15C80;stroke:#FFFFFF;stroke-linejoin:round;}
+	.st8{fill:#333333;}
+	.st9{font-family:'LucidaSansUnicode';}
+	.st10{font-size:18px;}
+	.st11{font-family:'Arial-BoldMT';}
+	.st12{font-size:12px;}
+	.st13{fill:#7CB5EC;}
+	.st14{fill:#434348;}
+	.st15{fill:#90ED7D;}
+	.st16{fill:#F7A35C;}
+	.st17{fill:#8085E9;}
+	.st18{fill:#F15C80;}
+	.st19{fill:#999999;}
+	.st20{font-size:9px;}
+</style>
+<desc>Created with Highcharts 6.2.0</desc>
+<rect class="st0" width="600" height="400"/>
+<rect x="10" y="53" class="st1" width="580" height="290"/>
+<rect x="10" y="53" class="st1" width="580" height="290"/>
+<g>
+	<g transform="translate(10,53) scale(1 1)">
+		<path class="st2" d="M299,14c74.6,0,135,60.4,135,135s-60.4,135-135,135c-32.6,0-64.1-11.8-88.7-33.2L299,149l0,0L299,14z"/>
+		<path class="st3" d="M201.3,246.7c-25.5-22.2-41.7-53.2-45.4-86.8L290,145l0,0L201.3,246.7z"/>
+		<path class="st4" d="M155.8,159.8c-3.4-30.7,3.9-61.7,20.6-87.7L290,145l0,0L155.8,159.8z"/>
+		<path class="st5" d="M176.4,72c7.1-11.1,15.9-21.1,25.9-29.7L290,145l0,0L176.4,72z"/>
+		<path class="st6" d="M202.5,42.2c9-7.6,18.9-14,29.5-19.1L290,145l0,0L202.5,42.2z"/>
+		<path class="st7" d="M232.1,23.1c18-8.6,37.8-13,57.7-13.1l0.2,135l0,0L232.1,23.1z"/>
+	</g>
+	<g transform="translate(10,53) scale(1 1)">
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 125.937 24)" class="st8 st9 st10">Browser market shares in January, 2018</text>
+<g transform="translate(33,355)">
+	<rect class="st1" width="533" height="30"/>
+	<g>
+		<g>
+			<g transform="translate(8,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Chrome</text>
+				<path class="st13" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+			<g transform="translate(96.765625,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Internet Explorer</text>
+				<path class="st14" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+			<g transform="translate(240.625,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Firefox</text>
+				<path class="st15" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+			<g transform="translate(324.34375,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Edge</text>
+				<path class="st16" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+			<g transform="translate(394.921875,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Safari</text>
+				<path class="st17" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+			<g transform="translate(469.859375,3)">
+				<text transform="matrix(1 0 0 1 21 15)" class="st8 st11 st12">Other</text>
+				<path class="st18" d="M8,4L8,4c3.3,0,6,2.7,6,6l0,0c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6l0,0C2,6.7,4.7,4,8,4z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 521.397 395)" class="st19 st9 st20">Highcharts.com</text>
+</svg>
