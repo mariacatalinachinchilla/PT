@@ -1,0 +1,166 @@
+body{
+    background:#E7E7E7;
+    color:#545353
+}
+
+.navbar {
+    background-color: #ffffff;
+  }
+  .navbar .navbar-brand {
+    color: #557cbd;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #2da854;
+  }
+  .navbar .navbar-text {
+    color: #557cbd;
+  }
+  .navbar .navbar-text a {
+    color: #2da854;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #2da854; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #557cbd;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #2da854;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #2da854;
+    background-color: #e7e7e7;
+  }
+  .navbar .navbar-toggle {
+    border-color: #e7e7e7;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #e7e7e7;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #557cbd;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #557cbd;
+  }
+  .navbar .navbar-link {
+    color: #557cbd;
+  }
+  .navbar .navbar-link:hover {
+    color: #ffffff;
+  }
+
+  }
+
+  .list-group-item{
+    background-color:#F6BB2F
+    color: #ffffff
+
+
+  }
+
+  .card-body{
+    background-color: #ffffff
+  }
+
+  .breadcrumb{
+    background-color: #E7E7E7
+  }
+
+
+
+  
+  @media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #557cbd;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #2da854;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #2da854;
+      background-color: #e7e7e7;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #557cbd;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #2da854;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #2da854;
+      background-color: #e7e7e7;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #557cbd;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #2da854;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #2da854;
+      background-color: #e7e7e7;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #557cbd;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #2da854;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #2da854;
+      background-color: #e7e7e7;
+    }
+  }
+  
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #557cbd;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #2da854;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #2da854;
+    background-color: #e7e7e7;
+  }
+
+  .navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
